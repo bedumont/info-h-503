@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2CCD5D51-28C3-3F99-9946-041209B1FB67}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>zlibstatic</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\zlib-1.2.8\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zlibstatic.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zlibstaticd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\zlib-1.2.8\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zlibstatic.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zlibstatic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\zlib-1.2.8\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">zlibstatic.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">zlibstatic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\zlib-1.2.8\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">zlibstatic.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">zlibstatic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/zlib-1.2.8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0 -BD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build --check-stamp-file D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/third_party/zlib-1.2.8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/zlib-1.2.8/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\CMakeFiles\CheckTypeSize\OFF64_T.c;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\CMakeLists.txt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\zconf.h.cmakein;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\zlib.pc.cmakein;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\zlib-1.2.8\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/zlib-1.2.8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0 -BD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build --check-stamp-file D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/third_party/zlib-1.2.8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/zlib-1.2.8/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\CMakeFiles\CheckTypeSize\OFF64_T.c;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\CMakeLists.txt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\zconf.h.cmakein;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\zlib.pc.cmakein;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\zlib-1.2.8\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/zlib-1.2.8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0 -BD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build --check-stamp-file D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/third_party/zlib-1.2.8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/zlib-1.2.8/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\CMakeFiles\CheckTypeSize\OFF64_T.c;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\CMakeLists.txt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\zconf.h.cmakein;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\zlib.pc.cmakein;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\zlib-1.2.8\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/zlib-1.2.8/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0 -BD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build --check-stamp-file D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/third_party/zlib-1.2.8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/zlib-1.2.8/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\CMakeFiles\CheckTypeSize\OFF64_T.c;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\CMakeLists.txt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\zconf.h.cmakein;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\zlib.pc.cmakein;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\zlib-1.2.8\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\adler32.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\compress.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\crc32.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\deflate.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\gzclose.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\gzlib.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\gzread.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\gzwrite.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\inflate.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\infback.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\inftrees.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\inffast.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\trees.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\uncompr.c" />
+    <ClCompile Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\zutil.c" />
+    <ClInclude Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\zconf.h" />
+    <ClInclude Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\zlib.h" />
+    <ClInclude Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\crc32.h" />
+    <ClInclude Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\deflate.h" />
+    <ClInclude Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\gzguts.h" />
+    <ClInclude Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\inffast.h" />
+    <ClInclude Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\inffixed.h" />
+    <ClInclude Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\inflate.h" />
+    <ClInclude Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\inftrees.h" />
+    <ClInclude Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\trees.h" />
+    <ClInclude Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\ZERO_CHECK.vcxproj">
+      <Project>{FC258875-1863-34DC-9F55-F5B4202852C0}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

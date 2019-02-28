@@ -1,0 +1,17 @@
+1.0-rc5:
+- Change executable name
+- Fix MSVC warnings
+- Update result images
+
+1.0-rc4:
+- Include zlib and libpng sources
+- Weight computation program
+
+1.0-rc3:
+- Fix build after erroneous removal of method Image::clone
+
+1.0-rc2:
+- Fix precision loss for large image in boxFilter
+
+1.0-rc1:
+- Initial release
