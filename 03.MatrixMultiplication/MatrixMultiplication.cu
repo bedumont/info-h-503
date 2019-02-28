@@ -56,7 +56,17 @@ void initialData(float *ip, int Nx, int Ny)
 
 void multiplyMatricesOnHost(float *A, float *B, float *C, const int Nx, const int Ny)
 {
-	// TODO
+	for (int ix = 0; ix < Nx; ix++)
+	{
+		for (int jx = 0; jx < Nx; jx++)
+		{
+			float temp = 0;
+			for (int y = 0; y < Ny; y++)
+			{
+				temp += A[ix * jx + y] * B[ix * y]
+			}
+		}
+	}
 	return;
 }
 
