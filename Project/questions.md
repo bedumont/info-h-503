@@ -1,4 +1,4 @@
-CUDA & OO ?
-    -> réécrire opérateurs ?
+-CUDA & OO ?
+    - réécrire opérateurs ?
 
 
