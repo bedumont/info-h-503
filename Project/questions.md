@@ -1,0 +1,4 @@
+CUDA & OO ?
+    -> réécrire opérateurs ?
+
+
