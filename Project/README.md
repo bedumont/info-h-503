@@ -8,5 +8,5 @@ After a modif on file.cu:
 
 To pull modifications from origin master
 
-	git pull --rebase
+	git pull --rebase origin master
 
