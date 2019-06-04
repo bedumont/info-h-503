@@ -19,6 +19,7 @@
 #include "costVolume.h"
 #include "image.h"
 #include "io_png.h"
+#include "test.cuh"
 #include <algorithm>
 #include <limits>
 #include <iostream>
@@ -139,50 +140,53 @@ Image filter_cost_volume(Image im1Color, Image im2Color,
     Image varIm1GG = covariance(im1G, meanIm1G, im1G, meanIm1G, r);
     Image varIm1GB = covariance(im1G, meanIm1G, im1B, meanIm1B, r);
     Image varIm1BB = covariance(im1B, meanIm1B, im1B, meanIm1B, r);
-
+	
     Image aR(width,height),aG(width,height),aB(width,height);
-    Image dCost(width,height);
+    //Image dCost(width,height);
     for(int d=dispMin; d<=dispMax; d++) {
         std::cout << '*' << std::flush;
-        compute_cost(im1R,im1G,im1B, im2R,im2G,im2B, gradient1, gradient2,
-                     d, param, dCost);
+        //compute_cost(im1R,im1G,im1B, im2R,im2G,im2B, gradient1, gradient2, d, param, dCost);
+		Image dCost = fcv(&(const_cast<Image&>(im1Color))(0, 0), &(const_cast<Image&>(im2Color))(0, 0), width, height, d, d + 1, param);
         Image meanCost = dCost.boxFilter(r); // Eq. (14)
 
         Image covarIm1RCost = covariance(im1R, meanIm1R, dCost, meanCost, r);
         Image covarIm1GCost = covariance(im1G, meanIm1G, dCost, meanCost, r);
         Image covarIm1BCost = covariance(im1B, meanIm1B, dCost, meanCost, r);
 
-        for(int y=0; y<height; y++)
-            for(int x=0; x<width; x++) {
-                // Computation of (Sigma_k+\epsilon Id)^{-1}
-                float S1[3*3] = { // Eq. (21)
-                    varIm1RR(x,y)+param.epsilon, varIm1RG(x,y), varIm1RB(x,y),
-                    varIm1RG(x,y), varIm1GG(x,y)+param.epsilon, varIm1GB(x,y),
-                    varIm1RB(x,y), varIm1GB(x,y), varIm1BB(x,y)+param.epsilon };
-                float S2[3*3];
-                inverseSym3(S1, S2);
-                // Eq. (19)
-                aR(x,y) = covarIm1RCost(x,y) * S2[0] +
-                          covarIm1GCost(x,y) * S2[1] +
-                          covarIm1BCost(x,y) * S2[2];
-                aG(x,y) = covarIm1RCost(x,y) * S2[3] +
-                          covarIm1GCost(x,y) * S2[4] +
-                          covarIm1BCost(x,y) * S2[5];
-                aB(x,y) = covarIm1RCost(x,y) * S2[6] +
-                          covarIm1GCost(x,y) * S2[7] +
-                          covarIm1BCost(x,y) * S2[8];
-            }
+		for (int y = 0; y < height; y++) {                                                        //Parallelize 
+			for (int x = 0; x < width; x++) {
+				// Computation of (Sigma_k+\epsilon Id)^{-1}
+				float S1[3 * 3] = { // Eq. (21)
+					varIm1RR(x,y) + param.epsilon, varIm1RG(x,y), varIm1RB(x,y),
+					varIm1RG(x,y), varIm1GG(x,y) + param.epsilon, varIm1GB(x,y),
+					varIm1RB(x,y), varIm1GB(x,y), varIm1BB(x,y) + param.epsilon };
+				float S2[3 * 3];
+				inverseSym3(S1, S2);
+				// Eq. (19)
+				aR(x, y) = covarIm1RCost(x, y) * S2[0] +
+					covarIm1GCost(x, y) * S2[1] +
+					covarIm1BCost(x, y) * S2[2];
+				aG(x, y) = covarIm1RCost(x, y) * S2[3] +
+					covarIm1GCost(x, y) * S2[4] +
+					covarIm1BCost(x, y) * S2[5];
+				aB(x, y) = covarIm1RCost(x, y) * S2[6] +
+					covarIm1GCost(x, y) * S2[7] +
+					covarIm1BCost(x, y) * S2[8];
+			}
+		}
         Image b = (meanCost-aR*meanIm1R-aG*meanIm1G-aB*meanIm1B).boxFilter(r);
         b += aR.boxFilter(r)*im1R+aG.boxFilter(r)*im1G+aB.boxFilter(r)*im1B;
 
         // Winner takes all label selection
-        for(int y=0; y<height; y++)
-            for(int x=0; x<width; x++)
-                if(cost(x,y) >= b(x,y)) {
-                    cost(x,y) = b(x,y);
-                    disparity(x,y) = static_cast<float>(d);
-                }
-    }
+		for (int y = 0; y < height; y++) {
+			for (int x = 0; x < width; x++)
+				if (cost(x, y) >= b(x, y)) {
+					cost(x, y) = b(x, y);
+					disparity(x, y) = static_cast<float>(d);
+				}
+		}
+
+    }                                                                               
     std::cout << std::endl;
     return disparity;
 }

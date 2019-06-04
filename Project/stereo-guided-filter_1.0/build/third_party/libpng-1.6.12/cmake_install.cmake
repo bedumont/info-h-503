@@ -1,4 +1,4 @@
-# Install script for directory: D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12
+# Install script for directory: D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,40 +34,40 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/Release/libpng16_static.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/Release/libpng16_static.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/Debug/libpng16_staticd.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/Debug/libpng16_staticd.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/MinSizeRel/libpng16_static.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/MinSizeRel/libpng16_static.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/RelWithDebInfo/libpng16_static.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/RelWithDebInfo/libpng16_static.lib")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/png.h"
-    "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/pngconf.h"
-    "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/pnglibconf.h"
+    "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/png.h"
+    "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/pngconf.h"
+    "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/pnglibconf.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/libpng16" TYPE FILE FILES
-    "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/png.h"
-    "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/pngconf.h"
-    "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/pnglibconf.h"
+    "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/png.h"
+    "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/pngconf.h"
+    "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/pnglibconf.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man3" TYPE FILE FILES
-    "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/libpng.3"
-    "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/libpngpf.3"
+    "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/libpng.3"
+    "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/libpngpf.3"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man5" TYPE FILE FILES "D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/png.5")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man5" TYPE FILE FILES "D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/png.5")
 endif()
 

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BEDAC9E3-6726-3CC6-9C4A-6FA5DFF65C17}</ProjectGuid>
+    <ProjectGuid>{BB63D46D-CED3-3692-806A-B8E400D054B9}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -63,7 +63,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,7 +85,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -107,7 +107,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -129,7 +129,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -150,7 +150,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\CMakeFiles\077425c8255201ed16b67d6bc5edacc8\INSTALL_force.rule">
+    <CustomBuild Include="D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\CMakeFiles\01d325f3ad07eb07e9a14f749a9165e7\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 cd .
@@ -161,8 +161,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/CMakeFiles/077425c8255201ed16b67d6bc5edacc8/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build/CMakeFiles/01d325f3ad07eb07e9a14f749a9165e7/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -174,8 +174,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/CMakeFiles/077425c8255201ed16b67d6bc5edacc8/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build/CMakeFiles/01d325f3ad07eb07e9a14f749a9165e7/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
@@ -187,8 +187,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/CMakeFiles/077425c8255201ed16b67d6bc5edacc8/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build/CMakeFiles/01d325f3ad07eb07e9a14f749a9165e7/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
@@ -200,18 +200,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/CMakeFiles/077425c8255201ed16b67d6bc5edacc8/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build/CMakeFiles/01d325f3ad07eb07e9a14f749a9165e7/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\ZERO_CHECK.vcxproj">
-      <Project>{FC258875-1863-34DC-9F55-F5B4202852C0}</Project>
+    <ProjectReference Include="D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\ZERO_CHECK.vcxproj">
+      <Project>{340945AF-0805-3BC2-9D7A-5BF045B0742C}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\ALL_BUILD.vcxproj">
-      <Project>{C3EA3E18-5ADF-3AAB-8050-1A104C4B8607}</Project>
+    <ProjectReference Include="D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\ALL_BUILD.vcxproj">
+      <Project>{F185E183-A9A9-3B84-B72F-CB7BB72A4D9F}</Project>
       <Name>ALL_BUILD</Name>
     </ProjectReference>
   </ItemGroup>

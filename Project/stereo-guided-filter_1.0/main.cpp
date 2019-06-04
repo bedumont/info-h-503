@@ -22,6 +22,9 @@
 #include "cmdLine.h"
 #include "io_png.h"
 #include <iostream>
+#include "test.cuh"
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
 
 /// Names of output image files
 static const char* OUTFILE1="disparity.png";
@@ -101,7 +104,7 @@ int main(int argc, char *argv[])
                   << " (must be r or l)" << std::endl;
         return 1;
     }
-
+	// cuTest();
     // Load images
     size_t width, height, width2, height2;
     float* pix1 = io_png_read_f32_rgb(argv[1], &width, &height);
@@ -130,6 +133,7 @@ int main(int argc, char *argv[])
     }
 
     Image disp = filter_cost_volume(im1, im2, dMin, dMax, paramGF);
+	//Image disp = fcv(pix1, pix2,width,height, dMin, dMax, paramGF);
     if(! save_disparity(OUTFILE1, disp, dMin,dMax, grayMin,grayMax)) {
         std::cerr << "Error writing file " << OUTFILE1 << std::endl;
         return 1;

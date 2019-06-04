@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C3EA3E18-5ADF-3AAB-8050-1A104C4B8607}</ProjectGuid>
+    <ProjectGuid>{F185E183-A9A9-3B84-B72F-CB7BB72A4D9F}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -63,7 +63,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -73,7 +73,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -83,7 +83,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -93,7 +93,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\zlib-1.2.8;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -102,10 +102,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0 -BD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build --check-stamp-file D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0 -BD:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build --check-stamp-file D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -113,12 +113,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\scripts\pnglibconf.h.prebuilt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\scripts\pnglibconf.h.prebuilt;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0 -BD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build --check-stamp-file D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0 -BD:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build --check-stamp-file D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,12 +126,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\scripts\pnglibconf.h.prebuilt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\scripts\pnglibconf.h.prebuilt;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0 -BD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build --check-stamp-file D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0 -BD:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build --check-stamp-file D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,12 +139,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\scripts\pnglibconf.h.prebuilt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\scripts\pnglibconf.h.prebuilt;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0 -BD:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build --check-stamp-file D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0 -BD:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build --check-stamp-file D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/build/third_party/libpng-1.6.12/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,20 +152,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Users/INFO-H-503/Desktop/info-h-503/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\scripts\pnglibconf.h.prebuilt;D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Users/INFO-H-503/Desktop/itichi-infoh503public-6061964758ce/itichi-infoh503public-6061964758ce/Project/stereo-guided-filter_1.0/third_party/libpng-1.6.12/CMakeLists.txt;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\scripts\pnglibconf.h.prebuilt;D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\third_party\libpng-1.6.12\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\ZERO_CHECK.vcxproj">
-      <Project>{FC258875-1863-34DC-9F55-F5B4202852C0}</Project>
+    <ProjectReference Include="D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\ZERO_CHECK.vcxproj">
+      <Project>{340945AF-0805-3BC2-9D7A-5BF045B0742C}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Users\INFO-H-503\Desktop\info-h-503\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\png16_static.vcxproj">
-      <Project>{574A23A4-9570-3352-93E7-B9D561326F1B}</Project>
+    <ProjectReference Include="D:\Users\INFO-H-503\Desktop\itichi-infoh503public-6061964758ce\itichi-infoh503public-6061964758ce\Project\stereo-guided-filter_1.0\build\third_party\libpng-1.6.12\png16_static.vcxproj">
+      <Project>{3B1415CB-75A6-30AC-BE35-32340AB17476}</Project>
       <Name>png16_static</Name>
     </ProjectReference>
   </ItemGroup>

@@ -22,7 +22,9 @@
 
 /// Constructor
 Image::Image(int width, int height)
-: count(new int(1)), tab(new float[width*height]), w(width), h(height) {}
+: count(new int(1)), tab(new float[width*height]), w(width), h(height) {
+	cudaMalloc((float**)&d_tab, width*height * sizeof(float));
+}
 
 /// Constructor with array of pixels.
 ///
@@ -58,6 +60,7 @@ Image Image::clone() const {
 /// Free memory
 void Image::kill() {
     if(count && --*count == 0) {
+		cudaFree(d_tab);
         delete count;
         delete [] tab;
     }
@@ -119,6 +122,7 @@ bool save_disparity(const char* fileName, const Image& disparity,
     const int w=disparity.width(), h=disparity.height();
     const float* in=&(const_cast<Image&>(disparity))(0,0);
     unsigned char *out = new unsigned char[3*w*h];
+	
     unsigned char *red=out, *green=out+w*h, *blue=out+2*w*h;
     for(size_t i=w*h; i>0; i--, in++, red++) {
         if((float)dMin<=*in && *in<=(float)dMax) {
@@ -134,6 +138,8 @@ bool save_disparity(const char* fileName, const Image& disparity,
         }
     }
     bool ok = (io_png_write_u8(fileName, out, w, h, 3) == 0);
+	
+	//bool ok = (io_png_write_f32(fileName, in, w, h, 1) == 0);
     delete [] out;
     return ok;
 }

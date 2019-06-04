@@ -19,6 +19,8 @@
 #define IMAGE_H
 
 #include <vector>
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
 
 /// Float image class, with shallow copy for performance.
 ///
@@ -30,6 +32,7 @@
 class Image {
     int* count;
     float* tab;
+	float* d_tab;
     int w, h;
     void kill();
 public:

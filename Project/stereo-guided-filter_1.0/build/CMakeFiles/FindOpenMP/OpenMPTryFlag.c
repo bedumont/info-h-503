@@ -1,6 +1,6 @@
 
 #include <omp.h>
-int main(void) {
+int main() {
 #ifdef _OPENMP
   omp_get_max_threads();
   return 0;
